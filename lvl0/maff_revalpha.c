@@ -5,9 +5,11 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	main(char even, char odd)
+int	main(void)
 {
-	int	l;
+	char	even;
+	char	odd;
+	int		l;
 
 	even = 'Y';
 	odd = 'z';
