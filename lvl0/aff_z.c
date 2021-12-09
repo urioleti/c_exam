@@ -20,14 +20,16 @@ int	main(int argc, char **argv)
 			{
 				ft_putchar('z');
 				ft_putchar('\n');
+				break ;
+			}
+			else
+			{
+				ft_putchar('z');
+				ft_putchar('\n');
+				break ;
 			}
 			*argv[1]++;
 		}
-	}
-	else if (argc == 2)
-	{
-		ft_putchar('z');
-		ft_putchar('\n');
 	}
 	return (0);
 }
